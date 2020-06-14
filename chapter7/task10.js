@@ -1,0 +1,12 @@
+var strNumber = "34387.387";
+var strNumber1 = "34387.65459";
+var strNumber2 = "-34387.345654598";
+var number = Number(strNumber);
+  var number1  = Number(strNumber1);
+  var number2 = Number(strNumber2);
+document.write("Number "+number+"<br>");
+document.write("Two digit decimal "+number.toFixed(2)+"<br>");
+document.write("Number "+number1+"<br>");
+document.write("Two digit decimal "+number1.toFixed(2)+"<br>");
+document.write("Number "+number2+"<br>");
+document.write("Two digit decimal "+number2.toFixed(2)+"<br>");
